@@ -1,0 +1,44 @@
+[12-Jun-2021 17:01:34 UTC] Erro de banco de dados do WordPress Unknown column 'wp_' in 'field list' para a consulta SELECT wp_
+[12-Jun-2021 17:01:34 UTC] Erro de banco de dados do WordPress Incorrect table name '' para a consulta INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '.AZt&k0}l&Ox_U0jmNpM2~Mr}{G/@U^?IE?8o:2WmgG<HV8h,o$|#`(S#&|(Mt+S', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) feita por wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[12-Jun-2021 17:01:34 UTC] Erro de banco de dados do WordPress Incorrect table name '' para a consulta INSERT INTO `` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_salt', 'j%.TC4/#K5NR,LQiEhIdfd]6OL^%Akg ]?RNJEL6I3Mxx]d1>Q+(dQC$&NY*5S/Q', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) feita por wp_print_scripts, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Jun-2021 14:54:57 UTC] Erro de banco de dados do WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(``)' at line 1 para a consulta ALTER TABLE wp_e_submissions_values ADD  `` (``) feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->create_tables, dbDelta
+[15-Jun-2021 14:54:57 UTC] Erro de banco de dados do WordPress Duplicate key name 'main_meta_id_index' para a consulta ALTER TABLE `wp_e_submissions`
+    		ADD INDEX `main_meta_id_index` (`main_meta_id`),
+    		ADD UNIQUE INDEX `hash_id_unique_index` (`hash_id`),
+    		ADD INDEX `hash_id_index` (`hash_id`),
+    		ADD INDEX `type_index` (`type`),
+    		ADD INDEX `post_id_index` (`post_id`),
+    		ADD INDEX `element_id_index` (`element_id`),
+    		ADD INDEX `campaign_id_index` (`campaign_id`),
+    		ADD INDEX `user_id_index` (`user_id`),
+    		ADD INDEX `user_ip_index` (`user_ip`),
+    		ADD INDEX `status_index` (`status`),
+    		ADD INDEX `is_read_index` (`is_read`),
+    		ADD INDEX `created_at_gmt_index` (`created_at_gmt`),
+    		ADD INDEX `updated_at_gmt_index` (`updated_at_gmt`),
+    		ADD INDEX `created_at_index` (`created_at`),
+    		ADD INDEX `updated_at_index` (`updated_at`)
+		 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[15-Jun-2021 14:54:57 UTC] Erro de banco de dados do WordPress Duplicate key name 'submission_id_index' para a consulta ALTER TABLE `wp_e_submissions_values`
+    		ADD INDEX `submission_id_index` (`submission_id`),
+    		ADD INDEX `key_index` (`key`)
+		 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[15-Jun-2021 14:54:58 UTC] Erro de banco de dados do WordPress Duplicate key name 'submission_id_index' para a consulta ALTER TABLE `wp_e_submissions_actions_log`
+    		ADD INDEX `submission_id_index` (`submission_id`),
+    		ADD INDEX `action_name_index` (`action_name`),
+    		ADD INDEX `status_index` (`status`),
+    		ADD INDEX `created_at_gmt_index` (`created_at_gmt`),
+    		ADD INDEX `updated_at_gmt_index` (`updated_at_gmt`),
+    		ADD INDEX `created_at_index` (`created_at`),
+    		ADD INDEX `updated_at_index` (`updated_at`)
+		 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->run, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Initial->add_indexes
+[15-Jun-2021 14:54:59 UTC] Erro de banco de dados do WordPress Duplicate column name 'referer_title' para a consulta 
+			ALTER TABLE `wp_e_submissions`
+			ADD COLUMN `referer_title` varchar(300) null AFTER `referer`;
+		 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[15-Jun-2021 14:54:59 UTC] Erro de banco de dados do WordPress Duplicate key name 'referer_index' para a consulta 
+			ALTER TABLE `wp_e_submissions`
+			ADD INDEX `referer_index` (`referer`(191)),
+			ADD INDEX `referer_title_index` (`referer_title`(191));
+		 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[30-Jul-2021 13:47:45 UTC] PHP Warning:  Creating default object from empty value in /home2/aztech87/doutorsistemas.com.br/barbearia/wp-content/plugins/jet-popup/includes/modules/jet-dashboard/inc/plugin-manager.php on line 313

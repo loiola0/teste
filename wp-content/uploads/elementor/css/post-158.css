@@ -1,0 +1,24 @@
+.elementor-158 .elementor-element.elementor-element-b2d1e5c > .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-158 .elementor-element.elementor-element-b2d1e5c:not(.elementor-motion-effects-element-type-background), .elementor-158 .elementor-element.elementor-element-b2d1e5c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#02010100;}.elementor-158 .elementor-element.elementor-element-b2d1e5c{border-style:solid;border-width:3px 0px 0px 0px;border-color:#EC8C08;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:-200px;z-index:1;}.elementor-158 .elementor-element.elementor-element-b2d1e5c > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-158 .elementor-element.elementor-element-9140232 img{width:45%;}.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-menu-toggle{margin:0 auto;background-color:#02010140;}.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu .elementor-item{font-family:"Raleway", Sans-serif;font-size:17px;font-weight:700;text-transform:uppercase;}.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item{color:#FFFFFF;}.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item:focus{color:#EC8C08;}.elementor-158 .elementor-element.elementor-element-1deb467 .elementor-nav-menu--main .elementor-item.elementor-item-active{color:#EC8C08;}.elementor-158 .elementor-element.elementor-element-1deb467 div.elementor-menu-toggle{color:#FFFFFF;}@media(max-width:767px){.elementor-158 .elementor-element.elementor-element-ee33963{width:50%;}.elementor-158 .elementor-element.elementor-element-9140232 img{width:59%;}.elementor-158 .elementor-element.elementor-element-bb95efc{width:50%;}}@media(min-width:768px){.elementor-158 .elementor-element.elementor-element-ee33963{width:24.741%;}.elementor-158 .elementor-element.elementor-element-bb95efc{width:75.259%;}}/* Start custom CSS for section, class: .elementor-element-b2d1e5c */div#top-bar-wrap {
+display: none!important;
+}
+
+#header.elementor-sticky--effects {
+background-color: #fff;
+transition: all .5s ease;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#header.elementor-sticky--effects .logo img {
+content:url('https://doutorsistemas.com.br/barbearia/wp-content/uploads/2021/06/Logo-MR.png') !important;
+width: 40%;
+
+}
+
+#header.elementor-sticky--effects .roblox li a {
+color: #ec8c08!important;
+}/* End custom CSS */
